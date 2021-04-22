@@ -10,7 +10,7 @@ length = len(userNumber)
 userNumber = int(userNumber)
 maxNumber = userNumber % 10
 newNumber = userNumber // 10
-for i in range(length-1):
+for i in range(length - 1):
     if newNumber % 10 > maxNumber:
         maxNumber = newNumber % 10
         newNumber = newNumber // 10

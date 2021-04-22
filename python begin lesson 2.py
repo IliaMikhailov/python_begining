@@ -1,4 +1,4 @@
-userNumber = int(input('Введите время в секундах '))
+userNumber = int(input('Введите время в секундах: '))
 seconds = userNumber % 60
 minutes = userNumber // 60
 hours = 0

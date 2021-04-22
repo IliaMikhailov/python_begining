@@ -11,4 +11,3 @@ print(userNumber)
 userStr = input('Введите строку: ')
 print(userNumber)
 print(userNumber + userStr)
-
