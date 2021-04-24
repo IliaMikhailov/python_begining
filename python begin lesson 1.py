@@ -6,8 +6,8 @@ numbers = [1, 2, 3]
 print(numbers)
 str = 'программа'
 print(str)
-userNumber = input('Введите число: ')
-print(userNumber)
-userStr = input('Введите строку: ')
-print(userNumber)
-print(userNumber + userStr)
+user_number = input('Введите число: ')
+print(user_number)
+user_str = input('Введите строку: ')
+print(user_number)
+print(user_number + user_str)
