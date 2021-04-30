@@ -12,4 +12,7 @@ while True:
         if user_number >= new_list[i]:
             new_list.insert(i, user_number)
             break
+         else:
+            new_list.append(user_number)
+            break
 print(new_list)
