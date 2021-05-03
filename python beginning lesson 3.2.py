@@ -1,11 +1,6 @@
-def func_2(name, surname, year, city, email, number):
-    return (f'{name} {surname} {year} {city} {email} {number}')
+def func_2(**name):
+    for key, value in name.items():
+        print(f'{key} is {value}')
 
 
-user_name = input(' Введите ваше имя: ')
-user_surname = input(' Введите вашу фамилию: ')
-user_year = input(' Введите ваш год рождения: ')
-user_city = input(' Введите ваш город: ')
-user_email = input(' Введите ваш email: ')
-user_phone = input(' Введите номер вашего телефона: ')
-print(func_2(user_name, user_surname, user_year, user_city, user_email, user_phone))
+func_2(user_name = 'Иван', user_surname = 'Иванов', user_year = '2000', user_city = 'Санкт-Петербург', user_email = '@gmail.com', user_phone = '7777777')
